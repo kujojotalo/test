@@ -20,7 +20,7 @@ import operator
 doc =docx.Document()
 desired_caps = {
   'platformName': 'Android', # 被测手机是安卓
-  'platformVersion': '11', # 手机安卓版本
+  'platformVersion': '12', # 手机安卓版本
   'deviceName': 'Y66', # 设备名，安卓手机可以随意填写
   'appPackage': 'com.szfish.hzzhi', # 启动APP Package名称
   'appActivity': 'com.szfish.hzzhi.activity.LoginActivity', # 启动Activity名称
